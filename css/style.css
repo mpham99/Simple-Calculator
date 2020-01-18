@@ -1,0 +1,61 @@
+body, html {
+  weight: 100%;
+}
+
+body {
+  background-color: #6666ff
+}
+
+kbd {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.form-group {
+  margin-bottom: 15px!important;
+}
+
+.form-control {
+  font-size: 20px;
+  max-width: 368px;
+	min-height: 45px;
+}
+
+.calculator{
+	background-color: black;
+	margin: auto;
+	margin-top: 40px;
+	padding: 15px;
+	width: 400px;
+	height: auto;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+}
+
+.btn {
+  border: none;
+  color: white;
+  background-color: dimgray;
+  margin: 7px;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  font-size: 25px;
+}
+
+button:focus{
+  outline: none!important;
+}
+
+button.active{
+  background-color: #97ffff;
+}
+
+.bright-grey {
+  background-color: #d9d9d9;
+  color: black;
+}
+
+.orange {
+  background-color:  #ff9900;
+}
