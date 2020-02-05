@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <title>IOS-like Calculator</title>
+
+  <meta charset="utf-8">
+  <meta name="author" content="Minh Duc Pham">
+  <meta name="description" content="A simple calculator">
+
+  <link rel="stylesheet" href="https://bootswatch.com/4/cyborg/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="icon" href="http://www.iconarchive.com/download/i81246/hamzasaleem/stock-apps-style-2-part-2/Calculator.ico">
+</head>
+<body>
+  <div class = "container">
+    <div class = "calculator">
+      <div style = "margin-bottom:15px;"><kbd>Simple Calculator</kbd></div>
+
+      <!--Input and Result textbox-->
+      <div class="form-group">
+        <span type="text" class="form-control text-right" id="input"></span>
+      </div>
+      <div class="form-group">
+        <span type="text" class="form-control text-right" id="result"></span>
+      </div>
+      <!--Keypad-->
+      <div class="keypad">
+        <!--First row-->
+        <button class = "btn bright-grey">C</button>
+        <button class = "btn bright-grey">+/-</button>
+        <button class = "btn bright-grey">%</button>
+        <button class = "btn orange">&divide</button>
+
+        <!--Second row-->
+        <button class = "btn grey">7</button>
+        <button class = "btn grey">8</button>
+        <button class = "btn grey">9</button>
+        <button class = "btn orange">&times</button>
+
+        <!--Third row-->
+        <button class = "btn grey">4</button>
+        <button class = "btn grey">5</button>
+        <button class = "btn grey">6</button>
+        <button class = "btn orange">&minus;</button>
+
+        <!--Fourth row-->
+        <button class = "btn grey">1</button>
+        <button class = "btn grey">2</button>
+        <button class = "btn grey">3</button>
+        <button class = "btn orange">&plus;</button>
+
+        <!--Fifth row-->
+        <button class = "btn grey">&lArr;</button>
+        <button class = "btn grey">0</button>
+        <button class = "btn grey">.</button>
+        <button class = "btn orange">&equals;</button>
+
+    </div>
+  </div>
+
+  <!-- Put javascript at the bottom to load the page faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
